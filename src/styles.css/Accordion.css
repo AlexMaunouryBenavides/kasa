@@ -1,0 +1,51 @@
+
+.accordion-wrapper {
+    margin-bottom: 100px
+}
+.accordion {
+    background: #F6F6F6; 
+    margin: 0 100px;
+}
+.accordion .title {
+    background: #FF6060;    
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion .title span {
+    margin-right: 25px;
+}
+.accordion .title h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-left: 15px;
+}
+
+.accordion .content p {
+    color: #FF6060;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 20px 15px;
+    padding: 10px 0;
+}
+.accordion .title .arrow {
+    cursor: pointer;
+}
+.accordion .title .arrow:hover {
+    cursor: pointer;    
+}
+.accordion .title .arrow.true {
+    transform: rotate(180deg);   
+}
+
+@media screen and (max-width: 665px) { 
+    .accordion {
+        margin: 0 10px;
+    }
+ }

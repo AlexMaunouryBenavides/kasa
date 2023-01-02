@@ -1,0 +1,39 @@
+
+.banner {
+       
+    border-radius: 25px;
+    width: auto;
+    margin: 0 100px 40px 100px;
+    position: relative;
+}
+.banner-img {
+    border-radius: 25px;
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+  }  
+  
+  .banner-txt {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 500;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+  }
+
+  @media screen and (max-width: 665px) { 
+    .banner {
+      margin: 0 10px 40px 10px;
+    }
+    .banner-img {
+      height: 100%;
+    }
+    .banner-txt {
+      font-size: 24px;
+      max-width: 220px;
+    }
+ }
