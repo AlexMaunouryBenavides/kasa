@@ -20,8 +20,8 @@ const Slider = ({ slides }) => {
 	return (
 		<div className="slider">
 			<div className="arrows">
-				<img className="arrowLeft" src={arrowLeft} alt="fleche-gauche" onClick={prevSlide} />
-				<img className="arrowRight" src={arrowRight} alt="fleche-droite" onClick={nextSlide} />
+				{length > 1 && <img className="arrowLeft" src={arrowLeft} alt="fleche-gauche" onClick={prevSlide} />}
+				{length > 1 && <img className="arrowRight" src={arrowRight} alt="fleche-droite" onClick={nextSlide} />}
 			</div>
 			{slides.map((slide, index) => {
 				return (
