@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/kasa.github.io/static/css/main.2a18e971.css",
+    "main.js": "/kasa.github.io/static/js/main.ddf90767.js",
+    "static/media/Banner_home.svg": "/kasa.github.io/static/media/Banner_home.bb95764b977cc4097a67ee5993e4f4fc.svg",
+    "static/media/Banner_about.jpg": "/kasa.github.io/static/media/Banner_about.3827f97bdcef0854551d.jpg",
+    "static/media/LOGO.svg": "/kasa.github.io/static/media/LOGO.a6101328193bb3191cbcb50c120ec0d1.svg",
+    "static/media/logo-footer.svg": "/kasa.github.io/static/media/logo-footer.ee689fd9409d1b5a898b4247819d8a00.svg",
+    "index.html": "/kasa.github.io/index.html",
+    "static/media/Arrow-down.svg": "/kasa.github.io/static/media/Arrow-down.b052dd29e3a2bab76700eee79e133c37.svg",
+    "main.2a18e971.css.map": "/kasa.github.io/static/css/main.2a18e971.css.map",
+    "main.ddf90767.js.map": "/kasa.github.io/static/js/main.ddf90767.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a18e971.css",
+    "static/js/main.ddf90767.js"
+  ]
+}
