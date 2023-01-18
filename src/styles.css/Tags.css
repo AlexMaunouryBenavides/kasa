@@ -1,0 +1,20 @@
+.tag {
+	background-color: #ff6060;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+	color: #fff;
+}
+.tag-text {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 665px) {
+	.tag-text {
+		font-size: 10px;
+		font-weight: 500;
+	}
+}

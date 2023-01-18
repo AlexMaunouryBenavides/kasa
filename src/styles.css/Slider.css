@@ -1,0 +1,56 @@
+.arrows img {
+	height: 120px;
+}
+.slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.images {
+	width: 1240px;
+	height: 415px;
+	border-radius: 25px;
+	position: relative;
+	object-fit: cover;
+}
+
+.arrowLeft {
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	z-index: 10;
+	cursor: pointer;
+}
+.arrowRight {
+	position: absolute;
+	top: 40%;
+	right: 10%;
+	z-index: 10;
+	cursor: pointer;
+}
+@media screen and (max-width: 665px) {
+	.images {
+		width: 335px;
+		height: 255px;
+		border-radius: 10px;
+		position: relative;
+		object-fit: cover;
+	}
+	.arrowLeft {
+		position: absolute;
+		top: 35%;
+		left: 10%;
+		z-index: 10;
+		cursor: pointer;
+	}
+	.arrowRight {
+		position: absolute;
+		top: 35%;
+		right: 10%;
+		z-index: 10;
+		cursor: pointer;
+	}
+	.arrows img {
+		height: 20px;
+	}
+}

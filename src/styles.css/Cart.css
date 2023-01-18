@@ -1,53 +1,49 @@
-
 .cart-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background:  #F7F7F7;
-    margin: 40px 100px;
-    padding: 40px 0;
-    border-radius: 25px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background: #f7f7f7;
+	margin: 40px 100px;
+	padding: 40px 0;
+	border-radius: 25px;
 }
 .cart {
-    margin-bottom: 30px;
-    
+	margin-bottom: 30px;
 }
-
 
 .cover-wrapper {
-    height: 340px;
-    width: 340px;
-    border-radius: 10px;
-    position: relative;
-    
+	height: 340px;
+	width: 340px;
+	border-radius: 10px;
+	position: relative;
 }
 .shadow-cover {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(transparent, #000);
-    opacity: 0.5;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(transparent, #000);
+	opacity: 0.5;
+	border-radius: 10px;
 }
 .cover-wrapper img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;   
-    
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
 }
 .cover-wrapper h3 {
-    position: absolute;
-    bottom: 10px;
-    max-width: 150px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 10px;
+	position: absolute;
+	bottom: 10px;
+	max-width: 150px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 10px;
 }
 
-@media screen and (max-width: 665px) { 
-    .cart-container {
-        background: #fff;
-        margin: 0;
-    }
- }
+@media screen and (max-width: 665px) {
+	.cart-container {
+		background: #fff;
+		margin: 0;
+	}
+}
