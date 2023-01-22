@@ -6,7 +6,8 @@ import Accordion from "../Component/Accordion";
 import { useParams } from "react-router-dom";
 import logements from "../Data/logements.json";
 import Footer from "../Footer";
-import Error from "../Pages/Error";
+
+import { Navigate } from "react-router-dom";
 import "../styles.css/Logement.css";
 
 const Logement = () => {
@@ -52,7 +53,7 @@ const Logement = () => {
 			</>
 		);
 	} else {
-		return <Error />;
+		return <Navigate to="*" />;
 	}
 };
 
